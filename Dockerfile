@@ -10,4 +10,4 @@ RUN yarn install
 COPY lib ./lib
 COPY bin ./bin
 
-ENTRYPOINT ["bin/sass-lint-vue"]
+ENTRYPOINT ["bin/sass-lint-vue2"]

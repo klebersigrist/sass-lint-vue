@@ -1,10 +1,9 @@
-:warning: **Deprecated:** This project is not actively maintained anymore. Use it at your own risk. The underlying library [sass-lint](https://github.com/sasstools/sass-lint) is  unmaintained. We recommend using [stylelint](https://vue-loader.vuejs.org/guide/linting.html#stylelint) to lint your single file components directly.
+Forked from https://github.com/sourceboat/sass-lint-vue, no longer maintained.
 
-# sass-lint-vue
+# sass-lint-vue2
 
-[![npm](https://img.shields.io/npm/v/sass-lint-vue.svg?style=flat-square)](https://www.npmjs.com/package/sass-lint-vue)
-[![npm downloads](https://img.shields.io/npm/dt/sass-lint-vue.svg?style=flat-square)](https://www.npmjs.com/package/sass-lint-vue)
-[![Build Status](https://img.shields.io/travis/sourceboat/sass-lint-vue.svg?style=flat-square)](https://travis-ci.org/sourceboat/sass-lint-vue)
+[![npm](https://img.shields.io/npm/v/sass-lint-vue2.svg?style=flat-square)](https://www.npmjs.com/package/sass-lint-vue2)
+[![npm downloads](https://img.shields.io/npm/dt/sass-lint-vue2.svg?style=flat-square)](https://www.npmjs.com/package/sass-lint-vue2)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
 Command line tool to lint [Sass](https://github.com/sass/sass) styles in [Vue single file components](https://vuejs.org/v2/guide/single-file-components.html). It uses [sass-lint](https://github.com/sasstools/sass-lint) under the hood.
@@ -17,13 +16,13 @@ Command line tool to lint [Sass](https://github.com/sass/sass) styles in [Vue si
 ## Installation
 
 ```bash
-npm install sass-lint-vue
+npm install sass-lint-vue2
 ```
 
 ## Usage
 
 ```bash
-sass-lint-vue [options] <paths|file path ...>
+sass-lint-vue2 [options] <paths|file path ...>
 ```
 
 ### Options
@@ -36,7 +35,7 @@ sass-lint-vue [options] <paths|file path ...>
 The following example scans the `assets` directory for `.vue` files and outputs lint errors in `<style>` tags with the attribute `lang="scss"` or `lang="sass"` set.
 
 ```bash
-sass-lint-vue assets
+sass-lint-vue2 assets
 ```
 
 ## Development
@@ -44,19 +43,19 @@ sass-lint-vue assets
 Build the docker container via:
 
 ```bash
-$ docker build . -t sass-lint-vue
+$ docker build . -t sass-lint-vue2
 ```
 
 Lint the `Component.vue` file in the docker container via:
 
 ```bash
-$ docker run --rm -tv $(pwd)/test:/app/test sass-lint-vue test
+$ docker run --rm -tv $(pwd)/test:/app/test sass-lint-vue2 test
 ```
 
 Access the container via:
 
 ```bash
-$ docker run -it --rm -v $(pwd)/test:/app/test --entrypoint bash sass-lint-vue
+$ docker run -it --rm -v $(pwd)/test:/app/test --entrypoint bash sass-lint-vue2
 ```
 
 Use docker compose to work on the files:

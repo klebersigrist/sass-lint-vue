@@ -1,6 +1,6 @@
 {
-  "name": "sass-lint-vue",
-  "version": "0.4.0",
+  "name": "sass-lint-vue2",
+  "version": "0.1.0",
   "description": "Command line tool to lint Sass styles in Vue single file components.",
   "keywords": [
     "lint",
@@ -10,20 +10,19 @@
     "scss",
     "vue"
   ],
-  "homepage": "https://github.com/sourceboat/sass-lint-vue",
-  "bugs": "https://github.com/sourceboat/sass-lint-vue/issues",
-  "author": "Sourceboat <info@sourceboat.com>",
+  "homepage": "https://github.com/klebersigrist/sass-lint-vue",
+  "bugs": "https://github.com/klebersigrist/sass-lint-vue",
+  "author": "Kleber Sigrist <klebersigrist@gmail.com>",
   "contributors": [
-    "Phil-Bastian Berndt <me@pbb.io> (https://pbb.io/)"
   ],
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/sourceboat/sass-lint-vue",
+    "url": "https://github.com/klebersigrist/sass-lint-vue",
     "type": "git"
   },
   "main": "lib/linter.js",
   "bin": {
-    "sass-lint-vue": "./bin/sass-lint-vue"
+    "sass-lint-vue2": "./bin/sass-lint-vue2"
   },
   "scripts": {
     "lint": "eslint --ext .js lib",
@@ -31,10 +30,10 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.10",
     "commander": "^2.18.0",
     "htmlparser2": "^3.9.2",
-    "sass-lint": "^1.12.1",
+    "sass-lint": "^1.13.1",
     "text-table": "^0.2.0",
     "walk": "^2.3.14"
   },
