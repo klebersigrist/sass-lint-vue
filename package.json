@@ -1,6 +1,6 @@
 {
   "name": "sass-lint-vue2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Command line tool to lint Sass styles in Vue single file components.",
   "keywords": [
     "lint",
@@ -13,8 +13,7 @@
   "homepage": "https://github.com/klebersigrist/sass-lint-vue",
   "bugs": "https://github.com/klebersigrist/sass-lint-vue",
   "author": "Kleber Sigrist <klebersigrist@gmail.com>",
-  "contributors": [
-  ],
+  "contributors": [],
   "license": "MIT",
   "repository": {
     "url": "https://github.com/klebersigrist/sass-lint-vue",
