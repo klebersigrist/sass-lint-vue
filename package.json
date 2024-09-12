@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "cheerio": "^1.0.0-rc.10",
+    "cheerio": "1.0.0-rc.10",
     "commander": "^2.18.0",
     "htmlparser2": "^3.9.2",
     "sass-lint": "^1.13.1",
